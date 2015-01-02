@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0053BBE1A5703E200B2EB8F /* libxkbswitch.c in Sources */ = {isa = PBXBuildFile; fileRef = B0053BBC1A5703E200B2EB8F /* libxkbswitch.c */; };
+		B0053BBF1A5703E200B2EB8F /* libxkbswitch.h in Headers */ = {isa = PBXBuildFile; fileRef = B0053BBD1A5703E200B2EB8F /* libxkbswitch.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B0053BB51A5703BB00B2EB8F /* liblibxkbswitch.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibxkbswitch.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0053BBC1A5703E200B2EB8F /* libxkbswitch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libxkbswitch.c; sourceTree = "<group>"; };
+		B0053BBD1A5703E200B2EB8F /* libxkbswitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libxkbswitch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		B0053BAC1A5703BB00B2EB8F = {
 			isa = PBXGroup;
 			children = (
+				B0053BBC1A5703E200B2EB8F /* libxkbswitch.c */,
+				B0053BBD1A5703E200B2EB8F /* libxkbswitch.h */,
 				B0053BB61A5703BB00B2EB8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0053BBF1A5703E200B2EB8F /* libxkbswitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0053BBE1A5703E200B2EB8F /* libxkbswitch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +232,7 @@
 				B0053BBB1A5703BB00B2EB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
