@@ -1,6 +1,6 @@
 #Libxkbswitch-macosx
 
-Mac OS X library for vim-xkbswitch plugin
+Mac OS X library for [vim-xkbswitch](https://github.com/lyokha/vim-xkbswitch) plugin
 
 ##Usage: 
 * This library uses [xkbswitch-macosx](https://github.com/myshov/xkbswitch-macosx) - console utility for keyboard layout
