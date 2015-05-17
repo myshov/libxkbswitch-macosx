@@ -29,19 +29,18 @@
 
 
 const char * Xkb_Switch_setXkbLayout( const char * param ) {
-    char * command;
-    command = malloc(100);
+    char command[100] = "";
     strcat(command, "/usr/local/bin/xkbswitch -s ");
     strcat(command, param);
     
     system(command);
+    
     return "";
 }
 
 const char * Xkb_Switch_getXkbLayout( const char * param ) {
     FILE *fp;
-    char *result;
-    result = malloc(100);
+    static char result[100];
     
     fp = popen("/usr/local/bin/xkbswitch -g", "r");
     if (fp == NULL) {
